@@ -11,7 +11,8 @@ import android.hardware.SensorManager
 import kotlin.math.sqrt
 
 /**
- * Provides sensor data scores for drowsiness detection.
+ * Provides sensor data for drowsiness detection.
+ * Provides scores as well
  */
 class SensorDataProvider(private val context: Context) : SensorEventListener {
     
@@ -170,7 +171,6 @@ class SensorDataProvider(private val context: Context) : SensorEventListener {
         return durationMs / 60000f
     }
     
-    /**
     /**
      * Get how long the screen has been OFF in minutes.
      */
