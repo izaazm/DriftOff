@@ -82,9 +82,9 @@ The app uses Android's `Log` class extensively during development. Use **Logcat*
 | Tag | Description |
 |-----|-------------|
 | `SleepMonitorService` | Main service lifecycle, monitoring cycles, state transitions |
-| `DrowsinessScoreCalculator` | Score calculation, feature weights, adaptive multiplier |
+| `HeuristicModel` | Score calculation |
 | `PhoneSettingsController` | Brightness/volume changes, DND state |
-| `SensorDataProvider` | Accelerometer, light sensor readings |
+| `SleepAnalytics` | Sleep Analytics, Session data |
 | `AudioSampleProvider` | Ambient noise dB levels |
-| `CameraVerificationService` | Face detection, eye-closed verification |
-| `SleepAnalyticsRepository` | Session tracking, data persistence |
+| `CameraVerification` | Face detection, eye-closed verification |
+| `MainActivity` | Bits of things (permission checking, etc) |
