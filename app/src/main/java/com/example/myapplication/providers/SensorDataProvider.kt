@@ -171,6 +171,7 @@ class SensorDataProvider(private val context: Context) : SensorEventListener {
     }
     
     /**
+    /**
      * Get how long the screen has been OFF in minutes.
      */
     fun getScreenOffDurationMinutes(): Float {

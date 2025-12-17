@@ -27,14 +27,14 @@ A smart sleep monitoring Android application that automatically detects drowsine
 
 ```bash
 git clone https://github.com/izaazm/DriftOff.git
-cd MyApplication
+cd DriftOff
 ```
 
 ### Step 2: Open in Android Studio
 
 1. Launch **Android Studio**
 2. Select **File → Open**
-3. Navigate to the cloned `MyApplication` folder
+3. Navigate to the cloned `DriftOff` folder
 4. Click **OK** and wait for Gradle sync to complete
 
 ### Step 3: Build the Project
